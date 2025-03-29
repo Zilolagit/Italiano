@@ -1,0 +1,613 @@
+<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Wed Mar 12 2025 14:16:36 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="italiano-webflow-template.webflow.io" data-wf-page="67bc3074ecafdc204d436806"
+      data-wf-site="67bc3074ecafdc204d4367f7" lang="en" data-wf-locale="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Italiano</title>
+    <meta content="Introducing Italiano, a premium restaurant webflow template that showcases it&#x27;s services for restaurants. It has intuitive CMS, e-commerce functionality, and customizable animations."
+          name="description"/>
+    <meta content="Italiano - Webflow Ecommerce Website Template" property="og:title"/>
+    <meta content="Introducing Italiano, a premium restaurant webflow template that showcases it&#x27;s services for restaurants. It has intuitive CMS, e-commerce functionality, and customizable animations."
+          property="og:description"/>
+    <meta content="Italiano - Webflow Ecommerce Website Template" property="twitter:title"/>
+    <meta content="Introducing Italiano, a premium restaurant webflow template that showcases it&#x27;s services for restaurants. It has intuitive CMS, e-commerce functionality, and customizable animations."
+          property="twitter:description"/>
+    <meta property="og:type" content="website"/>
+    <meta content="summary_large_image" name="twitter:card"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="Webflow" name="generator"/>
+    <link href="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/css/italiano-webflow-template.webflow.527173c8b.css"
+          rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">WebFont.load({google: {families: ["Changa One:400,400italic", "Gilda Display:regular", "Barlow:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Barlow Condensed:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Material Symbols Outlined:100,200,300,regular,500,600,700"]}});</script>
+    <script type="text/javascript">!function (o, c) {
+        var n = c.documentElement, t = " w-mod-";
+        n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+    }(window, document);</script>
+    <link href="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43694c_Favicon.png"
+          rel="shortcut icon" type="image/x-icon"/>
+    <link href="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43694b_Webclip.png"
+          rel="apple-touch-icon"/>
+    <script type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = {
+        "currencyCode": "USD",
+        "symbol": "$",
+        "decimal": ".",
+        "fractionDigits": 2,
+        "group": ",",
+        "hideDecimalForWholeNumbers": false
+    };</script>
+</head>
+<body>
+<div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
+     data-doc-height="1" role="banner" class="navbar w-nav">
+    <div class="container-nav w-container"><a data-w-id="dde1327c-df30-f796-0382-5ff734206be3" href="{% url 'home' %}"
+                                              class="logo-brand w-nav-brand"><img
+            sizes="(max-width: 767px) 98vw, (max-width: 991px) 728px, 940px"
+            srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp 800w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp 1080w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp 1600w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp 1856w"
+            alt="logo"
+            src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp"
+            loading="eager" class="logo-icon"/></a><a href="{% url 'home' %}" class="logo-text-wrapper w-inline-block"><img
+            src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3c4496fbb6181b38db7f_Italiano.png"
+            loading="eager" data-w-id="00bb3440-1d19-8854-7a86-f4cd8822ae0f"
+            sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 763px" alt="logo"
+            srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3c4496fbb6181b38db7f_Italiano-p-500.png 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3c4496fbb6181b38db7f_Italiano.png 763w"
+            class="logo-text"/></a>
+        <div class="nav-flex">
+            <div data-open-product="" data-wf-cart-type="modal" data-wf-cart-query="query Dynamo2 {
+  database {
+    id
+    commerceOrder {
+      comment
+      extraItems {
+        name
+        pluginId
+        pluginName
+        price {
+          value
+          unit
+          decimalValue
+          string
+        }
+      }
+      id
+      startedOn
+      statusFlags {
+        hasDownloads
+        hasSubscription
+        isFreeOrder
+        requiresShipping
+      }
+      subtotal {
+        value
+        unit
+        decimalValue
+        string
+      }
+      total {
+        value
+        unit
+        decimalValue
+        string
+      }
+      updatedOn
+      userItems {
+        count
+        id
+        product {
+          id
+          cmsLocaleId
+          f__draft_0ht
+          f__archived_0ht
+          f_name_
+          f_sku_properties_3dr {
+            id
+            name
+            enum {
+              id
+              name
+              slug
+            }
+          }
+        }
+        rowTotal {
+          value
+          unit
+          decimalValue
+          string
+        }
+        sku {
+          cmsLocaleId
+          f__draft_0ht
+          f__archived_0ht
+          f_main_image_4dr {
+            url
+            file {
+              size
+              origFileName
+              createdOn
+              updatedOn
+              mimeType
+              width
+              height
+              variants {
+                origFileName
+                quality
+                height
+                width
+                s3Url
+                error
+                size
+              }
+            }
+            alt
+          }
+          f_sku_values_3dr {
+            property {
+              id
+            }
+            value {
+              id
+            }
+          }
+          id
+        }
+        subscriptionFrequency
+        subscriptionInterval
+        subscriptionTrial
+      }
+      userItemsCount
+    }
+  }
+  site {
+    id
+    commerce {
+      businessAddress {
+        country
+      }
+      defaultCountry
+      defaultCurrency
+      quickCheckoutEnabled
+    }
+  }
+}" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper cart" data-node-type="commerce-cart-wrapper">
+                <a class="w-commerce-commercecartopenlink cart-button w-inline-block" role="button"
+                   aria-haspopup="dialog" aria-label="Open cart" data-node-type="commerce-cart-open-link"
+                   href="{% url 'about' %}#">
+                    <svg class="w-commerce-commercecartopenlinkicon cart-icon" width="17px" height="17px"
+                         viewBox="0 0 17 17">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path d="M2.60592789,2 L0,2 L0,0 L4.39407211,0 L4.84288393,4 L16,4 L16,9.93844589 L3.76940945,12.3694378 L2.60592789,2 Z M15.5,17 C14.6715729,17 14,16.3284271 14,15.5 C14,14.6715729 14.6715729,14 15.5,14 C16.3284271,14 17,14.6715729 17,15.5 C17,16.3284271 16.3284271,17 15.5,17 Z M5.5,17 C4.67157288,17 4,16.3284271 4,15.5 C4,14.6715729 4.67157288,14 5.5,14 C6.32842712,14 7,14.6715729 7,15.5 C7,16.3284271 6.32842712,17 5.5,17 Z"
+                                  fill="currentColor" fill-rule="nonzero"></path>
+                        </g>
+                    </svg>
+                </a>
+                <div style="display:none"
+                     class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-modal"
+                     data-node-type="commerce-cart-container-wrapper">
+                    <div data-node-type="commerce-cart-container" role="dialog"
+                         class="w-commerce-commercecartcontainer cart-container">
+                        <div class="w-commerce-commercecartheader cart-header"><h5
+                                class="w-commerce-commercecartheading">Your Cart</h5><a
+                                class="w-commerce-commercecartcloselink w-inline-block" role="button"
+                                aria-label="Close cart" data-node-type="commerce-cart-close-link">
+                            <svg class="invert" width="16px" height="16px" viewBox="0 0 16 16">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g fill-rule="nonzero" fill="#333333">
+                                        <polygon
+                                                points="6.23223305 8 0.616116524 13.6161165 2.38388348 15.3838835 8 9.76776695 13.6161165 15.3838835 15.3838835 13.6161165 9.76776695 8 15.3838835 2.38388348 13.6161165 0.616116524 8 6.23223305 2.38388348 0.616116524 0.616116524 2.38388348 6.23223305 8"></polygon>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a></div>
+                        <div class="w-commerce-commercecartformwrapper">
+
+
+                            <div class="w-commerce-commercecartemptystate">
+                                <div aria-label="This cart is empty" aria-live="polite" class="cart-details">No items
+                                    found.
+                                </div>
+                            </div>
+                            <div aria-live="assertive" style="display:none" data-node-type="commerce-cart-error"
+                                 class="w-commerce-commercecarterrorstate">
+                                <div class="error-message w-cart-error-msg"
+                                     data-w-cart-quantity-error="Product is not available in this quantity."
+                                     data-w-cart-general-error="Something went wrong when adding this item to the cart."
+                                     data-w-cart-checkout-error="Checkout is disabled on this site."
+                                     data-w-cart-cart_order_min-error="The order minimum was not met. Add more items to your cart to continue."
+                                     data-w-cart-subscription_error-error="Before you purchase, please use your email invite to verify your address so we can send order updates.">
+                                    Product is not available in this quantity.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-w-id="dde1327c-df30-f796-0382-5ff734206be1" class="menu-burger-circle">
+                <div data-w-id="dde1327c-df30-f796-0382-5ff734206be2" data-is-ix2-target="1"
+                     class="nav-lottie-icon-desktop" data-animation-type="lottie"
+                     data-src="https://cdn.prod.website-files.com/6513bcd48185e4df470368b3/65328f9bb27bfae4582a0ef6_menu-burger.json"
+                     data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="3"
+                     data-duration="0"></div>
+            </div>
+        </div>
+        <nav role="navigation" class="nav-menu w-nav-menu"><a href="{% url 'home' %}" class="nav-link w-nav-link">Home</a><a
+                href="{% url 'about' %}" aria-current="page" class="nav-link w-nav-link w--current">About us</a><a
+                href="{% url 'menu' %}" class="nav-link w-nav-link">menu</a><a href="{% url 'events' %}" class="nav-link w-nav-link">events</a><a
+                href="{% url 'blog' %}" class="nav-link w-nav-link">Blog</a><a href="{% url 'courses' %}"
+                                                                        class="nav-link w-nav-link">courses</a><a
+                href="{% url 'contact' %}" class="nav-link w-nav-link">Contact Us</a></nav>
+    </div>
+</div>
+<section class="half-hero-section">
+    <div class="w-layout-blockcontainer container-full no-max-width w-container">
+        <div class="half-hero-wrapper"><img
+                src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43696a_Bolognese2.webp"
+                loading="lazy" data-w-id="bb78e940-5e64-162d-6ec5-4bad7f14e6a9" alt="food on a plate" sizes="100vw"
+                srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43696a_Bolognese2.webp 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43696a_Bolognese2.webp 800w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43696a_Bolognese2.webp 1080w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43696a_Bolognese2.webp 1440w"
+                class="half-hero-image"/>
+            <div class="hero-image-overlay"></div>
+            <div data-w-id="bb78e940-5e64-162d-6ec5-4bad7f14e6ab" class="hero-text-wrapper">
+                <div class="hero-text-block">
+                    <div class="subheading-wrapper">
+                        <div class="width-32px"></div>
+                        <h6>Get To Know</h6>
+                        <div class="width-32px shift-left"></div>
+                    </div>
+                    <h1>About Us</h1></div>
+                <a href="{% url 'about' %}#about-us" data-w-id="bb78e940-5e64-162d-6ec5-4bad7f14e6b1"
+                   class="button w-inline-block">
+                    <div class="button-text-with-overlay">Learn More</div>
+                    <div class="button-overlay"></div>
+                </a></div>
+        </div>
+    </div>
+</section>
+<section id="about-us" class="section gradient-down">
+    <div class="space-large"></div>
+    <div class="w-layout-blockcontainer container-full padding-10 w-container">
+        <div class="center-text-block slide-up-animation"><h2>From Humble Beginnings</h2>
+            <div class="subheading-wrapper">
+                <div class="horizontal-line"></div>
+                <img src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436940_local_dining.svg"
+                     loading="eager" width="16" height="16" alt="local dining"/>
+                <div class="horizontal-line"></div>
+            </div>
+            <h6 class="color-white">Our Story</h6></div>
+        <div class="space"></div>
+        <div class="story-flex">
+            <div class="story-text-wrapper slide-from-left-animation">
+                <div class="space-text-half"></div>
+                <p class="max-width-420px">Our story is one of passion, tradition, and a love for Italian
+                    cuisine.<br/><br/>Founded in 1982 by Antonio Carbone, Figaro began as a small trattoria with a
+                    simple mission: to share the flavors of Italy with the world.<br/><br/>Today, we are a renowned
+                    Italian restaurant, serving authentic dishes crafted with the finest ingredients and a commitment to
+                    excellence. <br/><br/>Our journey is one of humble beginnings to where we are today, a place where
+                    tradition meets innovation.</p></div>
+            <div class="story-image-wrapper slide-from-right-animation"><img
+                    src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693e_Chef.webp"
+                    loading="eager" width="240" height="240" alt=""
+                    srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693e_Chef.webp 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693e_Chef.webp 800w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693e_Chef.webp 960w"
+                    sizes="(max-width: 479px) 100vw, 240px" class="story-image-absolute"/><img
+                    src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc4717833ea4680fcafc3b_img_vgQO.webp"
+                    loading="eager" height="" alt="" sizes="(max-width: 479px) 240px, (max-width: 767px) 288px, 360px"
+                    srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc4717833ea4680fcafc3b_img_vgQO-p-500.webp 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc4717833ea4680fcafc3b_img_vgQO-p-800.webp 800w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc4717833ea4680fcafc3b_img_vgQO-p-1080.webp 1080w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc4717833ea4680fcafc3b_img_vgQO.webp 1600w"
+                    class="image-absolute"/></div>
+        </div>
+    </div>
+</section>
+<section class="section gradient-up">
+    <div class="w-layout-blockcontainer container-full padding-10 w-container">
+        <div class="space-large"></div>
+        <div class="numbers-grid slide-up-animation">
+            <div data-w-id="d2c11bdb-82ce-d81b-e35f-f4183622ff66" style="opacity:0" class="wrapper-quarter">
+                <div class="icon-sqaure-wrapper"><img
+                        src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43695e_Bistecca.webp"
+                        loading="eager" height="48" alt="" width="48"
+                        srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43695e_Bistecca.webp 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43695e_Bistecca.webp 800w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43695e_Bistecca.webp 1080w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43695e_Bistecca.webp 1440w"
+                        sizes="48px"/></div>
+                <h6 class="numbers-description">Authentic <br/>Cuisine<br/></h6></div>
+            <div data-w-id="d2c11bdb-82ce-d81b-e35f-f4183622ff72" style="opacity:0" class="wrapper-quarter">
+                <div class="icon-sqaure-wrapper"><img
+                        src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436962_Calamari.webp"
+                        loading="eager" height="48" alt="" width="48"
+                        srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436962_Calamari.webp 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436962_Calamari.webp 800w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436962_Calamari.webp 1080w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436962_Calamari.webp 1440w"
+                        sizes="48px"/></div>
+                <h6 class="numbers-description">Fresh &amp; Local<br/>Ingredients<br/></h6></div>
+            <div data-w-id="d2c11bdb-82ce-d81b-e35f-f4183622ff7e" style="opacity:0" class="wrapper-quarter">
+                <div class="icon-sqaure-wrapper"><img
+                        src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43695b_Bolognese.webp"
+                        loading="eager" height="48" alt="" width="48"
+                        srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43695b_Bolognese.webp 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43695b_Bolognese.webp 800w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43695b_Bolognese.webp 1080w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43695b_Bolognese.webp 1440w"
+                        sizes="48px"/></div>
+                <h6 class="numbers-description">Inviting<br/>Atmosphere</h6></div>
+            <div data-w-id="d2c11bdb-82ce-d81b-e35f-f4183622ff8a" style="opacity:0" class="wrapper-quarter">
+                <div class="icon-sqaure-wrapper"><img
+                        src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436960_Lasagna.webp"
+                        loading="eager" height="48" alt="" width="48"
+                        srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436960_Lasagna.webp 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436960_Lasagna.webp 800w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436960_Lasagna.webp 1080w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436960_Lasagna.webp 1440w"
+                        sizes="48px"/></div>
+                <h6 class="numbers-description">Warm<br/>Service</h6></div>
+        </div>
+        <div class="space-large"></div>
+        <div class="history-flex">
+            <div class="history-text-wrapper slide-in-from-left-animation"><h2 class="history-h2">1982</h2></div>
+            <div class="title-wrapper-right slide-from-right-animation">
+                <div class="subheading-wrapper">
+                    <div class="width-32px"></div>
+                    <h6>Origin</h6>
+                    <div class="width-32px shift-left"></div>
+                </div>
+                <h2>our History</h2>
+                <p class="max-width-480px">Born from a passion for authentic Italian cuisine, our restaurant was founded
+                    to bring the rich flavors and warm hospitality of Italy to our guests.</p></div>
+        </div>
+        <div class="space-semi"></div>
+        <div class="space-semi"></div>
+        <div class="flex-history-count">
+            <div class="history-flex-icon">
+                <div class="icon-wrapper-circle"><img
+                        src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436942_restaurant.svg"
+                        loading="eager" width="48" height="48" alt=""/></div>
+                <h6 class="color-white fade-in-animation">Founded</h6>
+                <wrapper class="history-line"></wrapper>
+            </div>
+            <div class="history-flex-icon">
+                <div class="icon-wrapper-circle"><img
+                        src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43689a_Icon-17.svg"
+                        loading="eager" width="48" height="48" alt=""/></div>
+                <h6 class="color-white fade-in-animation">Expand</h6>
+                <wrapper class="history-line"></wrapper>
+            </div>
+            <div class="history-flex-icon end">
+                <div class="icon-wrapper-circle"><img
+                        src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp"
+                        loading="eager" width="48" height="48" alt=""
+                        srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp 800w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp 1080w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp 1600w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43693c_Crest.webp 1856w"
+                        sizes="48px"/></div>
+                <h6 class="color-white fade-in-animation">Today</h6>
+                <div class="filler-line"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="teams" class="section gradient-down">
+    <div class="container-full padding-5 w-container">
+        <div class="teams-wrapper">
+            <div class="space-large"></div>
+            <div class="title-wrapper slide-up-animation">
+                <div class="center-text-block"><h2 class="centered">Meet our Chefs</h2>
+                    <div class="subheading-wrapper">
+                        <div class="horizontal-line"></div>
+                        <img src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436940_local_dining.svg"
+                             loading="eager" width="16" height="16" alt="local dining"/>
+                        <div class="horizontal-line"></div>
+                    </div>
+                    <h6>QUALIFIED EXPERTS</h6>
+                    <p class="max-width-480px">Our chef brings years of experience and a deep love for Italian cuisine,
+                        crafting every dish with authenticity, skill, and creativity.</p></div>
+            </div>
+            <div class="space"></div>
+            <div class="slide-up-animation w-dyn-list">
+                <div role="list" class="teams-flex-wrapper w-dyn-items">
+                    {% for teammate in teammates %}
+
+                    <div role="listitem" class="team-wrapper-thirds w-dyn-item"><a href="{% url 'team_detail' teammate.id %}"
+                                                                                   data-w-id="a99cb5f9-743a-0b4b-71cb-465a57869e0c"
+                                                                                   class="team-card w-inline-block">
+                        <div class="team-image-wrapper"><img loading="eager" alt="man serious looking"
+                                                             src="{{ teammate.image.url }}"
+                                                             sizes="(max-width: 479px) 81vw, 320px"
+                                                             srcset="{{ teammate.image.url }} 500w, {{ teammate.image.url }} 800w, {{ teammate.image.url }} 933w"
+                                                             class="team-image"/></div>
+                        <div class="space-small"></div>
+                        <div class="space-text"></div>
+                        <div class="team-text-wrapper"><h4><a href="{% url 'team_detail' teammate.id %}">{{ teammate.name }}</a></h4><h6 class="centered">{{ teammate.job }}</h6>
+                            <p>{{ teammate.email }}</p></div>
+                    </a>
+                        <div class="team-socials-wrapper invert"><a href="{{ teammate.twitter }}" target="_blank"
+                                                                    class="social-link-wrapper-small w-inline-block"><img
+                                src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43684e_twitter.png"
+                                loading="eager" sizes="(max-width: 767px) 16px, (max-width: 991px) 2vw, 16px"
+                                srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43684e_twitter-p-500.png 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43684e_twitter.png 512w"
+                                alt="twitter icon" class="social-icon"/></a><a href="{{ teammate.instagram }}"
+                                                                               target="_blank"
+                                                                               class="social-link-wrapper-small w-inline-block"><img
+                                src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43690e_instagram-black.webp"
+                                loading="eager" alt="Instagram Icon Image Black" class="social-icon"/></a><a
+                                href="{{ teammate.facebook }}" target="_blank"
+                                class="social-link-wrapper-small w-inline-block"><img
+                                src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436932_facebook-black.webp"
+                                loading="eager" alt="facebook icon black" class="social-icon"/></a></div>
+                    </div>
+                    {% endfor %}
+
+
+            </div>
+            <div class="chef-button-wrapper">
+                <div class="space"></div>
+                <a href="{% url 'team' %}" data-w-id="b564d200-d8f1-8277-fd70-50ef91df13b3" class="button w-inline-block">
+                    <div class="button-text-with-overlay">View All</div>
+                    <div class="button-overlay"></div>
+                </a></div>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="space-large"></div>
+    <div class="w-layout-blockcontainer container-full padding-15 w-container">
+        <div data-w-id="8e82e302-4004-059c-336c-36b0ebc748f9" style="opacity:0" class="title-wrapper gap-16px">
+            <div class="subheading-wrapper">
+                <div class="width-32px"></div>
+                <h6>Values</h6>
+                <div class="width-32px shift-left"></div>
+            </div>
+            <h2 class="centered">Rooted in Tradition</h2><h5 class="max-width-450px centered">At our restaurant, we
+            embrace four core values that shape our passion for bringing authentic flavors and warm hospitality to every
+            guest.</h5></div>
+        <div class="space"></div>
+        <div class="flex-wrapper">
+            <div data-w-id="9377b1bc-6b74-c7b0-9cdd-e08f8be40558" style="opacity:0" class="values-thirds-wrapper">
+                <div class="values-text-wrapper align-left gap-8px"><h4 class="values-text">Authenticity</h4><h6>
+                    Culinary Heritage</h6>
+                    <p>We stay true to traditional recipes, using time-honored techniques and the finest ingredients to
+                        deliver an authentic Italian dining experience.</p></div>
+                <div class="values-text-wrapper align-left gap-8px"><h4 class="values-text">Hospitality</h4><h6>Guest is
+                    Family</h6>
+                    <p>From the moment you step through our doors, we treat you like family, ensuring a warm atmosphere
+                        with exceptional service.</p></div>
+            </div>
+            <div class="values-image-wrapper"><img class="values-image"
+                                                   src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43694f_A_square_table.webp"
+                                                   alt="table with a view" style="opacity:0"
+                                                   sizes="(max-width: 479px) 80vw, 384px"
+                                                   data-w-id="9377b1bc-6b74-c7b0-9cdd-e08f8be40569" loading="lazy"
+                                                   srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43694f_A_square_table.webp 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43694f_A_square_table.webp 800w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43694f_A_square_table.webp 1080w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43694f_A_square_table.webp 1440w"/>
+            </div>
+            <div data-w-id="9377b1bc-6b74-c7b0-9cdd-e08f8be4056a" style="opacity:0" class="values-thirds-wrapper">
+                <div class="values-text-wrapper align-left gap-8px"><h4 class="values-text">Quality</h4><h6>Best
+                    Ingredients</h6>
+                    <p>We source the freshest ingredients, from ripe tomatoes to hand-rolled pasta, to create dishes
+                        that celebrate the richness of Italian cuisine.</p></div>
+                <div class="values-text-wrapper align-left gap-8px"><h4 class="values-text">Passion</h4><h6>Italian
+                    Cooking</h6>
+                    <p>Our chefs pour their hearts into every dish, infusing each plate with the passion and artistry
+                        that make Italian food a timeless delight.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container-full no-max-width w-container">
+        <div class="space-large"></div>
+        <div class="cta-wrapper">
+            <div id="w-node-_2cf8803d-699e-ebce-01fa-03434d87a8c3-7d6933c9"
+                 class="cta-text-wrapper slide-from-right-animation">
+                <div class="space-mid"></div>
+                <div class="subheading-wrapper">
+                    <div class="width-32px"></div>
+                    <h6>Get In Touch</h6>
+                    <div class="width-32px shift-left"></div>
+                </div>
+                <h2 class="centered-on-mobile">Book a Table</h2>
+                <div class="cta-paragraph"><p class="max-width-320px">Celebrate the timeless flavors of Italy, where
+                    every meal is a masterpiece.</p></div>
+                <div class="space-text-half"></div>
+                <div class="sign-up-form w-form">
+                    <form id="wf-form-Form" action="{% url 'home' %}" name="wf-form-Form" data-name="Form" method="post"
+                          class="sign-up-form-container" data-wf-page-id="67bc3074ecafdc204d4367f8"
+                          data-wf-element-id="2cf8803d-699e-ebce-01fa-03434d87a8ce">
+                        {% csrf_token %}
+                        <div class="form-flex">
+                            <input class="form-text-field w-input" maxlength="256" name="name"
+                                                      data-name="Name" aria-label="Enter your name" placeholder="Name"
+                                                      type="text" id="Name" required=""/><input
+                                class="form-text-field w-input" maxlength="256" name="date" data-name="Date"
+                                aria-label="Enter your email" placeholder="Date" type="text" id="Date" required=""/>
+                        </div>
+                        <div class="form-flex"><input class="form-text-field w-input" maxlength="256" name="email"
+                                                      data-name="Email" aria-label="Enter your time" placeholder="Email"
+                                                      type="email" id="Email" required=""/><input
+                                class="form-text-field w-input" maxlength="256" name="guests" data-name="Guests"
+                                aria-label="Enter your time" placeholder="Guests" type="text" id="Guests" required=""/>
+                        </div>
+                        <input type="submit" data-wait="Please wait..." class="button-submit w-button"
+                               value="Make a reservation"/>
+                    </form>
+                    <div class="success-message w-form-done">
+                        <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="error-massage w-form-fail">
+                        <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                </div>
+                <div class="space-mid"></div>
+            </div>
+            <div class="cta-image-wrapper slide-from-left-animation">
+                <div class="gradient-overlay-bottom"></div>
+                <div class="gradient-overlay-top"></div>
+                <div class="gradient-overlay"></div>
+                <div class="cta-image"></div>
+            </div>
+        </div>
+        <div class="space-large"></div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="w-layout-blockcontainer container-full footer-background-light-navy w-container">
+        <div class="footer-wrapper">
+            <div class="space-mid"></div>
+            <div data-w-id="cf769bf0-f786-7298-17a0-a0bb8d474cee" class="footer-text-wrapper">
+                <div class="footer-flex-wrapper slide-up-animation">
+                    <div class="footer-content-wrapper"><a href="{% url 'home' %}" aria-current="page"
+                                                           class="footer-logo-link w-inline-block w--current"><img
+                            src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3c4496fbb6181b38db7f_Italiano.png"
+                            loading="eager" sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 763px"
+                            srcset="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3c4496fbb6181b38db7f_Italiano-p-500.png 500w, https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3c4496fbb6181b38db7f_Italiano.png 763w"
+                            alt="logo" class="logo-text footer"/></a>
+                        <div class="space-text"></div>
+                        <p class="footer-paragraph">Discover a gastronomic experience that transports you to the heart
+                            of Italy.</p>
+                        <div class="footer-social-links-wrapper invert"><a href="https://www.instagram.com/"
+                                                                           target="_blank"
+                                                                           class="footer-social-link w-inline-block"><img
+                                src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43690e_instagram-black.webp"
+                                loading="eager" alt="Instagram Icon Image Black"
+                                class="footer-social-link-image"/></a><a href="https://facebook.com/" target="_blank"
+                                                                         class="footer-social-link w-inline-block"><img
+                                src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436932_facebook-black.webp"
+                                loading="eager" alt="facebook icon black" class="footer-social-link-image"/></a><a
+                                href="https://www.youtube.com/" target="_blank"
+                                class="footer-social-link w-inline-block"><img
+                                src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43683e_youtube-black.webp"
+                                loading="eager" alt="YouTube White Icon Image Black" class="footer-social-link-image"/></a>
+                        </div>
+                    </div>
+                    <div class="w-layout-grid footer-links-wrapper">
+                        <div class="footer-links-text">
+                            <div class="footer-links-title">Explore</div>
+                            <a href="{% url 'home' %}
+" aria-current="page" class="footer-link w--current">Home</a><a
+                                href="{% url 'about' %}" class="footer-link">About</a><a href="{% url 'team' %}"
+                                                                                     class="footer-link">Teams</a><a
+                                href="{% url 'courses' %}" class="footer-link">Courses</a><a href="{% url 'contact' %}"
+                                                                                               class="footer-link">Contact</a>
+                        </div>
+                        <div class="footer-links-text">
+                            <div class="footer-links-title">More Pages</div>
+                            <a href="{% url 'events' %}" class="footer-link">Events</a><a href="{% url 'blog' %}" class="footer-link">Blog</a></div>
+                        <div class="footer-links-text">
+                            <div class="footer-links-title">Contact</div>
+                            <p class="footer-text">XYZ ABC St., Country, 78910<br/></p>
+                            <div class="flex-footer"><img
+                                    src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d43690f_call.webp"
+                                    loading="eager" alt="phone white icon" class="footer-icon"/>
+                                <div class="footer-text">+123 456789</div>
+                            </div>
+                            <div class="flex-footer"><img
+                                    src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/67bc3074ecafdc204d436933_email-black.webp"
+                                    loading="eager" alt="email black icon" class="footer-icon invert"/>
+                                <div class="footer-text">hello@italiano.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-mid"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67bc3074ecafdc204d4367f7"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+<script src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/js/webflow.schunk.0153a022353124b4.js"
+        type="text/javascript"></script>
+<script src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/js/webflow.schunk.8fec59f9cb340477.js"
+        type="text/javascript"></script>
+<script src="https://cdn.prod.website-files.com/67bc3074ecafdc204d4367f7/js/webflow.894d9794.8281ac0928cf326d.js"
+        type="text/javascript"></script>
+</body>
+</html>
